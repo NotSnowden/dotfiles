@@ -12,6 +12,8 @@ rofi
 
 lightdm
 
+zsh
+
 thunar
 
 firefox
