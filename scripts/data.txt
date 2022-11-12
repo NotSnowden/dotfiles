@@ -4,6 +4,10 @@ bspwm
 
 sxhkd
 
+picom
+
+polybar
+
 rofi
 
 lightdm
@@ -25,3 +29,5 @@ discord
 feh
 
 mpv
+
+flameshot
