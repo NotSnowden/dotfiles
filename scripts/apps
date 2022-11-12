@@ -1,0 +1,6 @@
+#!/bin/sh
+
+while read line; do
+	echo "Installo $line"
+	sudo pacman -S $line
+done < data.txt
