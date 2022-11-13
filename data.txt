@@ -5,6 +5,7 @@ picom
 polybar
 rofi
 lightdm
+curl
 zsh
 thunar
 firefox
