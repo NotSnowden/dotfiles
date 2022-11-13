@@ -1,12 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation
+# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
-# Path to your shell scripts
 export PATH=$PATH:~/scripts
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -101,13 +98,24 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias install="sudo pacman -Sy"
-alias delete="sudo pacman -Rns"
+# package management aliases
+alias i="sudo pacman -Sy"
+alias uni="sudo pacman -Rns"
 alias iy="yay"
-alias update="sudo pacman -Syu"
-alias v="vim"
-alias s="sudo "
+alias update="yay -Syyu"
+alias agogay="yay -Syyu"
+
+# system aliases
+alias cp="cp -i" # asks to overwrite a file
 alias c="clear"
-alias j="java"
+alias s="sudo "
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+# other aliases
+alias v="vim"
+alias j="java"
