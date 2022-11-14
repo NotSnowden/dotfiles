@@ -1,2 +1,2 @@
 # Set Background Wallpaper
-~/scripts/fehbg
+~/dotfiles/scripts/fehbg
