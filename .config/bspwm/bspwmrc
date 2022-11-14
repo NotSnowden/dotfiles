@@ -1,9 +1,9 @@
 #! /bin/sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-feh --bg-fill $HOME/download/wallpaper.jpg &
 
-polybar &
+# Set Background Wallpaper
+~/dotfiles/scripts/fehbg
 
 picom --config $HOME/.config/picom/picom.conf &
 
