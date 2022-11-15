@@ -1,5 +1,5 @@
 # DESCRIPTION
 
 here you will find everything you need to reproduce my bspwm arch installation. \
-run `make install` to install every package in packages.txt, plus oh-my-zsh. \
-it will also set zsh as default shell, remove the last line in Makefile if you don't want to.
+run `make install` to install every package in packages.txt \
+run `make shell` to install oh-my-zsh and to set zsh as default shell
