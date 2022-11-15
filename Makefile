@@ -1,5 +1,5 @@
 # + Installation Makefile +
-# install every package in packages.txt, font awesome and Iosevka for polybar
+# install every package in packages.txt, font awesome and Iosevka for polybar and jfetch
 # install oh my zsh and switch to zsh
 
 help:
@@ -10,7 +10,7 @@ install:
 	git clone "https://aur.archlinux.org/yay.git"
 	cd yay && makepkg -si
 	rm -rf yay
-	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka
+	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git
 
 shell:
 	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
