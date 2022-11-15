@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# randomize wallpaper
-feh --no-fehbg --bg-fill --randomize ~/dotfiles/.wallpapers
