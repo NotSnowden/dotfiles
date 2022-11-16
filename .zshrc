@@ -108,4 +108,3 @@ alias checkout="git checkout"
 # other aliases
 alias v="vim"
 alias j="java"
-alias orario="feh ~/images/orario.jpg"
