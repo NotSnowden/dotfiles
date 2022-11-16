@@ -10,7 +10,7 @@ install:
 	git clone "https://aur.archlinux.org/yay.git"
 	cd yay && makepkg -si
 	rm -rf yay
-	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git
+	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git onlyoffice-bin
 
 shell:
 	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
