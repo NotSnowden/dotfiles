@@ -18,6 +18,10 @@ super + alt + f
 super + e
 	thunar
 
+# launch betterlockscreen
+alt + shift + l
+    betterlockscreen -l dim
+
 # take a screenshot
 Insert
 	flameshot gui

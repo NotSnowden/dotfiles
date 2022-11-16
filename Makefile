@@ -15,3 +15,8 @@ install:
 shell:
 	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 	chsh -s $(which zsh)
+
+lockscreen:
+	yay -S --noconfirm betterlockscreen
+	systemctl enable betterlockscreen@$USER
+	betterlockscreen -u .wallpapers/lockscreen.png
