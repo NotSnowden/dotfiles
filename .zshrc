@@ -91,11 +91,21 @@ alias update="yay -Syyu"
 alias agogay="yay -Syyu"
 
 # system aliases
+alias stutate="shutdown now"
+alias ndumate="reboot"
 alias cp="cp -i" # asks to overwrite a file
 alias c="clear"
 alias s="sudo "
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
+# git aliases
+alias add="git add"
+alias push="git push"
+alias pull="git pull"
+alias commit="git commit -m"
+alias checkout="git checkout"
+
 # other aliases
 alias v="vim"
 alias j="java"
+alias orario="feh ~/images/orario.jpg"
