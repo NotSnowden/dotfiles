@@ -7,4 +7,5 @@ run `make shell` to install oh-my-zsh and to set zsh as default shell
 
 # RESULT
 
-![Alt text](/../screenshots/setup.png?raw=true "My setup")
+![Alt text](/../screenshots/setup.png?raw=true "Desktop")
+![Alt text](/../screenshots/lockscreen.png?raw=true "Lockscreen")
