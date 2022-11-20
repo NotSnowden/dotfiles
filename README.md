@@ -3,9 +3,14 @@
 here you will find everything you need to reproduce my bspwm arch installation. \
 run `make install` to install every package in packages.txt \
 \
-run `make shell` to install oh-my-zsh and to set zsh as default shell \
-\
 run `make lockscreen` to install and enable betterlockscreen. the configuration file is located in .config/betterlockscreenrc. the default wallpaper is located in .wallpapers/lockscren.png
+\
+run
+```shell
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh -s $(which zsh)
+```
+to download oh my zsh and switch to zsh
 
 # RESULT
 
