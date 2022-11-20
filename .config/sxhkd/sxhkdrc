@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + r
-	rofi -show run -font "Iosevka Bold 16" -m -1 -fullscreen -padding 300 -hide-scrollbar
+	rofi -show run -font "Iosevka Bold 16" -m -1 -fullscreen -padding 300 -hide-scrollbar -show-icons
 
 # launch firefox
 super + alt + f
