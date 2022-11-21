@@ -1,0 +1,7 @@
+configuration {
+	font: "Iosevka 16";
+	show-icons: true;
+	scrollbar: false;
+}
+
+@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
