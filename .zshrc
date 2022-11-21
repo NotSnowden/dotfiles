@@ -88,11 +88,9 @@ alias i="sudo pacman -Sy"
 alias uni="sudo pacman -Rns"
 alias iy="yay"
 alias update="yay -Syyu"
-alias agogay="yay -Syyu"
 
 # system aliases
-alias stutate="shutdown now"
-alias ndumate="reboot"
+alias cat="pygmentize -g"
 alias cp="cp -i" # asks to overwrite a file
 alias c="clear"
 alias s="sudo "
