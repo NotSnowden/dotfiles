@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+bspc rule -a '*' -o state=floating
+alacritty

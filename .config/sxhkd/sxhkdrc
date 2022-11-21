@@ -6,6 +6,10 @@
 super + Return
 	alacritty
 
+# terminal emulator in floating mode using floatingterminal script
+super + shift + Return
+	./scripts/floatingterminal
+
 # program launcher
 super + r
 	rofi -show drun 
