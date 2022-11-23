@@ -14,7 +14,8 @@ alacritty
 vim
 gimp
 telegram-desktop
-discord
+discord-arch-electron
 feh
 mpv
-flameshot
+flameshot-git
+pygmentize
