@@ -8,7 +8,7 @@ run `make lockscreen` to install and enable betterlockscreen. the configuration 
 run
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-chsh -s $(which zsh)
+sudo chsh -s /bin/zsh $USER
 ```
 to download oh my zsh and switch to zsh
 

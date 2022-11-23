@@ -5,6 +5,7 @@ picom
 polybar
 rofi
 lightdm
+lightdm-gtk-greeter
 curl
 zsh
 thunar
