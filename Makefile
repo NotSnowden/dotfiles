@@ -5,6 +5,7 @@ help:
 	cat README.md
 
 install:
+	sudo pacman -S `cat packages.txt | cut -d' ' -f 1`
 	git clone "https://aur.archlinux.org/yay.git"
 	cd yay && makepkg -si
 	rm -rf yay
