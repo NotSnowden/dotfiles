@@ -19,3 +19,6 @@ feh
 mpv
 flameshot
 pygmentize
+kvantum
+lxappearance
+arc-gtk-theme
