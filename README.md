@@ -7,17 +7,16 @@ install every package in packages.txt
 make install
 ```
 
+
 install and enable betterlockscreen. the configuration file is located in .config/betterlockscreenrc. the default wallpaper is located in .wallpapers/lockscren.png
 ```shell
 make lockscreen
 ```
 
-run
+download oh my zsh and switch to zsh
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sudo chsh -s /bin/zsh $USER
 ```
-to download oh my zsh and switch to zsh
 
 # RESULT
 
