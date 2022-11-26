@@ -8,7 +8,8 @@ make install
 ```
 
 
-install and enable betterlockscreen. the configuration file is located in .config/betterlockscreenrc. the default wallpaper is located in .wallpapers/lockscren.png
+install and enable betterlockscreen. the configuration file is located in `.config/betterlockscreenrc`.
+this will set `.wallpapers/lockscreen.png` as lockscreen wallpaper
 ```shell
 make lockscreen
 ```
