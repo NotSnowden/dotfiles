@@ -20,7 +20,7 @@ super + alt + f
 
 # launch file explorer
 super + e
-	thunar
+	pcmanfm
 
 # launch betterlockscreen
 alt + shift + l
@@ -38,17 +38,17 @@ F5
 F6
 	brightnessctl s 10%+
 
-# volume up
-F9
-	pactl set-sink-volume 0 +5%
-
 #volume down
 F8
-	pactl set-sink-volume 0 -5%
+	pulsemixer --get-volume --change-volume -5 --get-volume
+
+# volume up
+F9
+	pulsemixer --get-volume --change-volume 5 --get-volume
 
 # mute volume
-F10
-	pactl set-sink-mute 0 toggle
+XF86AudioMute
+	pulsemixer --toggle-mute
 
 # make sxhkd reload its configuration files:
 super + Escape
