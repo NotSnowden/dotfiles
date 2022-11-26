@@ -1,17 +1,17 @@
 # DESCRIPTION
 
-here you will find everything you need to reproduce my bspwm arch installation. \
+here you will find everything you need to reproduce my bspwm arch installation.
 
 install every package in packages.txt
 ```shell
 make install
 ```
-\
+
 install and enable betterlockscreen. the configuration file is located in .config/betterlockscreenrc. the default wallpaper is located in .wallpapers/lockscren.png
 ```shell
 make lockscreen
 ```
-\
+
 run
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
