@@ -1,12 +1,13 @@
 # DESCRIPTION
 
 here you will find everything you need to reproduce my bspwm arch installation. \
-install every package in packages.txt \
+
+install every package in packages.txt
 ```shell
 make install
 ```
 \
-install and enable betterlockscreen. the configuration file is located in .config/betterlockscreenrc. the default wallpaper is located in .wallpapers/lockscren.png \
+install and enable betterlockscreen. the configuration file is located in .config/betterlockscreenrc. the default wallpaper is located in .wallpapers/lockscren.png
 ```shell
 make lockscreen
 ```
