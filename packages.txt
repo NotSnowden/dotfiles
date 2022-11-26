@@ -8,6 +8,7 @@ lightdm
 lightdm-gtk-greeter
 curl
 zsh
+pulsemixer
 pcmanfm
 firefox
 alacritty
