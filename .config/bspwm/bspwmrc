@@ -5,7 +5,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 polybar &
 
 # Set Background Wallpaper
-~/scripts/fehbg
+/home/notsnowden/scripts/fehbg
 
 picom --config $HOME/.config/picom/picom.conf &
 
