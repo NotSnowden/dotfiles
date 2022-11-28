@@ -7,6 +7,10 @@ install every package in packages.txt
 make install
 ```
 
+after that, if you're using systemd as init system, enable xdm service with
+```shell
+sudo systemctl enable xdm
+```
 
 install and enable betterlockscreen. the configuration file is located in `.config/betterlockscreenrc`.
 this will set `.wallpapers/lockscreen.png` as lockscreen wallpaper
