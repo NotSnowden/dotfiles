@@ -9,7 +9,7 @@ install:
 	git clone "https://aur.archlinux.org/yay.git"
 	cd yay && makepkg -si
 	rm -rf yay
-	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git onlyoffice-bin xdm
+	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git onlyoffice-bin xorg-xdm
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	vim +PluginInstall +qall
 
