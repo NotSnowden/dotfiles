@@ -2,16 +2,23 @@
 
 here you will find everything you need to reproduce my bspwm arch installation.
 
+
+# INSTALLATION
+
 install every package in packages.txt
 ```shell
 make install
 ```
 
-after that, move Xresources (xdm's configuration file)in `/etc/X11/xdm/`. \
+after that, move Xresources (xdm's configuration file) in `/etc/X11/xdm/` \
 if you're using systemd as init system
 ```shell
 sudo mv Xresources /etc/X11/xdm/
 sudo systemctl enable xdm
+```
+don't forget to make `.xsession`, `sxhkdrc` and `bspwmrc` executable  with 
+```shell
+sudo chmod +x *name_of_the_file
 ```
 
 install and enable betterlockscreen. the configuration file is located in `.config/betterlockscreenrc`.
