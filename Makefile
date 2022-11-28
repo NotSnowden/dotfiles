@@ -9,7 +9,10 @@ install:
 	git clone "https://aur.archlinux.org/yay.git"
 	cd yay && makepkg -si
 	rm -rf yay
-	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git onlyoffice-bin `cat packages.txt | cut -d' ' -f 1`
+	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git onlyoffice-bin xdm
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	vim +PluginInstall +qall
+	sudo cp .Xresources /etc/X11/xdm/
 
 lockscreen:
 	yay -S --noconfirm betterlockscreen

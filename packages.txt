@@ -4,8 +4,6 @@ sxhkd
 picom
 polybar
 rofi
-lightdm
-lightdm-gtk-greeter
 curl
 zsh
 pulsemixer
