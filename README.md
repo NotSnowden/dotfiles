@@ -7,8 +7,10 @@ install every package in packages.txt
 make install
 ```
 
-after that, if you're using systemd as init system, enable xdm service with
+after that, move Xresources in `/etc/X11/xdm/`. \
+if you're using systemd as init system
 ```shell
+sudo mv Xresources /etc/X11/xdm/
 sudo systemctl enable xdm
 ```
 
