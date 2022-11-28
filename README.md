@@ -5,7 +5,12 @@ here you will find everything you need to reproduce my bspwm arch installation.
 
 # INSTALLATION
 
-install every package in packages.txt
+clone the repository
+```shell
+git clone https://github.com/notsnowden/dotfiles.git
+```
+
+install every package in packages.txt and others packages from AUR (you can edit them from the makefile)
 ```shell
 make install
 ```
