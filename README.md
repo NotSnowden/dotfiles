@@ -7,7 +7,7 @@ install every package in packages.txt
 make install
 ```
 
-after that, move Xresources in `/etc/X11/xdm/`. \
+after that, move Xresources (xdm's configuration file)in `/etc/X11/xdm/`. \
 if you're using systemd as init system
 ```shell
 sudo mv Xresources /etc/X11/xdm/
