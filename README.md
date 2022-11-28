@@ -11,14 +11,14 @@ make install
 ```
 
 after that, move Xresources (xdm's configuration file) in `/etc/X11/xdm/` \
-if you're using systemd as init system
+if you're using systemd as init system enable xdm service
 ```shell
 sudo mv Xresources /etc/X11/xdm/
 sudo systemctl enable xdm
 ```
 don't forget to make `.xsession`, `sxhkdrc` and `bspwmrc` executable  with 
 ```shell
-sudo chmod +x *name_of_the_file
+chmod +x name_of_the_file
 ```
 
 install and enable betterlockscreen. the configuration file is located in `.config/betterlockscreenrc`.
