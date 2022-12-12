@@ -10,7 +10,7 @@ pulsemixer
 pcmanfm
 firefox
 alacritty
-vim
+neovim
 gimp
 telegram-desktop
 discord
