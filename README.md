@@ -10,7 +10,7 @@ clone the repository
 git clone https://github.com/notsnowden/dotfiles.git
 ```
 
-install every package in packages.txt and others packages from AUR (you can edit them from the makefile)
+install every package in packages.txt and other packages from AUR (you can edit them from the makefile)
 ```shell
 make install
 ```
