@@ -26,12 +26,6 @@ don't forget to make `.xsession`, `sxhkdrc` and `bspwmrc` executable  with
 chmod +x ~/.xsession ~/.config/sxhkd/sxhkdrc ~/.config/bspwm/bspwmrc
 ```
 
-install and enable betterlockscreen. the configuration file is located in `.config/betterlockscreenrc`.
-this will set `.wallpapers/lockscreen.png` as lockscreen wallpaper
-```shell
-make lockscreen
-```
-
 download oh my zsh and switch to zsh
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
