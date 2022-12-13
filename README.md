@@ -23,7 +23,7 @@ sudo systemctl enable xdm
 ```
 don't forget to make `.xsession`, `sxhkdrc` and `bspwmrc` executable  with 
 ```shell
-chmod +x name_of_the_file
+chmod +x ~/.xsession ~/.config/sxhkd/sxhkdrc ~/.config/bspwm/bspwmrc
 ```
 
 install and enable betterlockscreen. the configuration file is located in `.config/betterlockscreenrc`.

@@ -10,9 +10,6 @@ install:
 	cd yay && makepkg -si
 	rm -rf yay
 	yay -S --noconfirm ttf-font-awesome-5 ttf-font-awesome ttc-iosevka jfetch-git onlyoffice-bin xorg-xdm
+	cd .config/slock/ && sudo make clean install
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-lockscreen:
-	yay -S --noconfirm betterlockscreen
-	systemctl enable betterlockscreen@$USER
-	betterlockscreen -u .wallpapers/lockscreen.png
