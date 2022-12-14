@@ -33,5 +33,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # RESULT
 
-![Alt text](/../screenshots/setup.png?raw=true "Desktop")
+![Alt text](/../screenshots/home.png?raw=true "Desktop")
 ![Alt text](/../screenshots/lockscreen.png?raw=true "Lockscreen")
