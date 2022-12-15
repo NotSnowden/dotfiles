@@ -1,6 +1,6 @@
 # copy this file in /etc/X11/xdm/
 
-login.Login.echoPasswd:       true
+xlogin.Login.echoPasswd:       true
 xlogin.Login.fail:             fail
 xlogin.Login.greeting:
 xlogin.Login.namePrompt:       \040login\040
